@@ -60,7 +60,7 @@
     float: left;
 }
 .logo img{
-    height: 50px;
+    height: 55px;
     margin-top: 10px;
 }
 .menu{
@@ -89,3 +89,57 @@
     line-height: 30px;
 }
 /* Row-2 CSS End */
+
+/* Row-3 CSS is Start */
+#row3{
+    height: 500px;
+    background-image: url(../images/h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7 green, blue, alpha);
+    position: absolute;
+}
+.banner_section{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner_contant{
+ 
+}
+.banner_contant h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 200px;
+}
+.banner_contant p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner_button{
+  
+}
+.banner_button button{
+    padding: 10px 20px;
+    background:none;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+    background-color: #455964;
+    transition: 1s;
+}
+/* Row-3 is End */
