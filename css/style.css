@@ -144,7 +144,7 @@
 }
 /* Row-3 is End */
 
-/* Row-4 CSS is Start */
+/* Row-4 CSS  Start */
 #row4{
     height: 80px;
     width: 100%;
@@ -194,7 +194,7 @@
 }
 .input_item i{
     color: gray;
-    margin-left: -30px;
+    margin-left: -25.5px;
     position: absolute;
     line-height: 35px;
 }
@@ -204,4 +204,56 @@
    background: yellowgreen;
    border: none;
 }
-/* Row-4 is End */
+/* Row-4 CSS End */
+
+/* Row-5 CSS Start */
+#row5{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.offer_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer_top{
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer_top h2{}
+.offer_top p{}
+.offer_bottom{}
+.all_offer_items{}
+.offer_items{
+    width: 225px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    transition: 1s;
+  
+}
+.offer_items:hover{
+    transform: scale(1.2);
+    
+}
+.offer_items img{
+    height: 150px;
+    width: 100%;
+  
+
+    
+}
+.offer_text{
+    width: 80%;
+    float: left;
+}
+.offer_text h3{}
+.offer_text h4{}
+.offer_icon{
+    width: 10%;
+    float: right;
+}
+.offer_icon i{}
+/* Row- CSS End */
