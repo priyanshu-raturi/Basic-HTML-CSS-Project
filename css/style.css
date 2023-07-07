@@ -143,3 +143,65 @@
     transition: 1s;
 }
 /* Row-3 is End */
+
+/* Row-4 CSS is Start */
+#row4{
+    height: 80px;
+    width: 100%;
+    background-color: #234757;
+}
+.form_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.text_part{
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.text_part h4{}
+.text_part h1{
+    color: white;
+    line-height: 32px;
+}
+.form_part{
+    padding-top: 23px;
+
+}
+.form_part form{
+    width: 80%;
+    float: left;
+}
+.input_item{
+    float: left;
+  
+    width: 420px;
+}
+.input_item label{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    padding-right: 15px;
+}
+.input_item input[type="text"]{
+    padding: 8px;
+    width: 320px;
+}
+.input_item input[type="date"]{
+    padding: 8px;
+    width: 320px;
+}
+.input_item i{
+    color: gray;
+    margin-left: -30px;
+    position: absolute;
+    line-height: 35px;
+}
+.form_part button{
+   
+   padding: 10px 15px;
+   background: yellowgreen;
+   border: none;
+}
+/* Row-4 is End */
